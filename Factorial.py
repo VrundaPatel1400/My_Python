@@ -1,7 +1,7 @@
 n = int (input ("Enter the number:")
 fact = 1
 if n < 0:
-  print (“Factorial cannot be calculated, non-integer input”)
+  print ("Factorial does not exist for negative numbers")
 elif n == 0:
   print (“Factorial of the number is 1”)
 else:
